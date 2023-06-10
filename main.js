@@ -1,12 +1,4 @@
 const contactSection = document.querySelector("#contact");
-const socialLinks = document.querySelectorAll(".social");
-
-socialLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    event.target;
-    contactSection.scrollIntoView({ behavior: "smooth" });
-  });
-});
 
 const footer = document.querySelector("footer");
 const currentYear = new Date().getFullYear();
