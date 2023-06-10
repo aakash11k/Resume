@@ -1,0 +1,321 @@
+.profile {
+border-radius: 70px;
+width: 120px;
+height: 130px;
+}
+
+#names {
+border: 10px;
+padding: 5px;
+
+}
+
+#socialdiv {
+  border: 10px;
+}
+
+#image {
+  padding: 5px;
+  border: 10px;
+  background-color: silver;
+}
+
+.social {
+    border: 5px solid silver;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    color: #555;
+    font-size: 22px;
+    margin: 10px 0;
+  }
+
+  #contact-info {
+    background-color: #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  #contact-info a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #contact-info li {
+    margin-bottom: 10px;
+  }
+
+  #hard-skills {
+    background-color: #ffc107;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  #hard-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    animation: floatAnimation 5s infinite ease-in-out;
+  }
+  
+  #hard-skills li {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #hard-skills li:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  #about-me {
+    background-color: rgba(40, 167, 69, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+    animation: floatAnimation 5s infinite ease-in-out;
+  }
+
+  #personal-projects {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  #personal-projects h3 {
+    margin-top: 0;
+  }
+
+  #soft-skills {
+    background-color:lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  #soft-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    animation: floatAnimation 5s infinite ease-in-out;
+  }
+
+  #soft-skills li {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  #soft-skills li:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  #certifications {
+    background-color: #fd7e14;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  #certifications ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #certifications li {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  #education-background {
+    background-color: #28a745;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  #languages-known {
+    background-color: #17a2b8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  #languages-known ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #languages-known li {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  #internship {
+    background-color: #ffc107;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #333;
+    animation: floatAnimation 5s infinite ease-in-out;
+  }
+
+  #hobbies {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    animation: floatAnimation 5s infinite ease-in-out;
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  #hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #hobbies li {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-in {
+    animation: slideAnimation 10s infinite;
+  }
+  
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+  .slide-up {
+    animation-name: slide-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
